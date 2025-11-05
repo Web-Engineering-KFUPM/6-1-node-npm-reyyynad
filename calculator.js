@@ -187,7 +187,7 @@ const numbers = process.argv.slice(3);
 // todo 3
 if (!isValidOperation(operation)) {
   console.log("Invalid operation. Use: add, subtract, multiply, or divide");
-  return;
+  process.exit();
 }
 
 const nums = parseNumbers(numbers);
