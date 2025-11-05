@@ -199,7 +199,7 @@ switch (operation) {
     break;
   
   case "subtract":
-    result = substract(nums);
+    result = subtract(nums);
     break;
 
   case "multiply":
