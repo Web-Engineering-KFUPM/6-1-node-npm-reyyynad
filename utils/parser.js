@@ -10,3 +10,4 @@ export function isValidOperation(operation) {
   return _.includes(validOps, operation);
 }
 
+// End of the demo:)
